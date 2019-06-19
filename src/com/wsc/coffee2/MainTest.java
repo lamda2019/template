@@ -1,0 +1,18 @@
+package com.wsc.coffee2;
+
+public class MainTest {
+
+	public static void main(String[] args) {
+	Coffee mCoffee=new Coffee();
+	Tea mTea=new Tea();
+	mCoffee.prepareRecipe();
+	mTea.prepareRecipe();
+ 
+	
+	//add hook
+	
+	TeaWithHook mTeaTemplate=new TeaWithHook();
+	mTeaTemplate.prepareRecipe();
+	}
+
+}
